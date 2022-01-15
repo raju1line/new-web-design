@@ -3,6 +3,10 @@ body {
     font-size: 15pt;
     font-family: 'Oswald', sans-serif;
 }
+
+
+
+
 .heder-section{
      background-image:url(img/top-banner.png);
      background-repeat:no-repeat;height:450px;
@@ -10,30 +14,43 @@ body {
      padding-bottom:150px;
   
 }
+
+
 .Haf-wide{
   width:40%;
   margin-left:60px;
   
 }
+
+
+
 .color1{
   color:#D23674;
   
 }
-h1{
+.Haf-wide h1{
   font-size:55px;
   
 }
-p{
-  color:#3B388F;
+.Haf-wide p{
+  color:#8C0A6FF5;
   font-size:20px;
 }
+
+
 .wide{
   margin-right:40px;
   }
+  
+  
+  
 .wide img{
   width:400px;
   padding-left:80px;
 }
+
+
+
 .link1{
   text-decoration:none;
   font-size:20px;
@@ -43,35 +60,75 @@ p{
   font-weight:bold;
   color:white;
   }
+  
+  
+  
   .mid-conten{
     display:flex;
-    gap:5px
+    gap:15px
   }
+  
+  
   .img1{
-    height:300px;
+    height:400px;
     width:300px;
     background-color: #78913130;
-    margin-left:30px
+    margin-left:28px;
+    border-radius:10px;
+    box-shadow:5px 5px 50px grey;
+
+    
   }
   .img1 img{
-    height:200px;
-    width:200px;
+    height:130px;
+    width:130px;
     
   }
+  
+  .img1 h2{
+    text-align:center;
+  }
+  
+  .img1 p{
+    text-align:center;
+    padding:0px 7px 0px
+    7px;
+  }
+  
+  
   .img2{
-    height:300px;
+    height:400px;
     width:300px;
     background-color: #32913130;
+    border-radius:10px;
+    box-shadow:5px 5px 50px grey;
   }
+  
+  
   .img2 img{
-    height:200px;
-    width:200px;
-    
-  }
+    height:130px;
+    width:130px;
+   }
+   
+   .img2 h2{
+     text-align:center;
+   }
+   
+   .img2 p{
+     text-align: center;
+     padding:0px 7px 0px
+     7px;
+     
+   }
+  
   .img3{
-    height:300px;
+    height:400px;
     width:300px;
-    background-color:#31809130
+    background-color:#31809130;
+     border-radius:10px;
+    box-shadow:5px 5px 50px grey;
+
+
     
   }
   .img3 img{
@@ -79,3 +136,13 @@ p{
     width:130px;
     
   }
+  
+  .img3 h2{
+   text-align: center; 
+    }
+  
+.img3 p{
+  text-align:center;
+  padding:0px 7px 0px
+  7px;
+}  
